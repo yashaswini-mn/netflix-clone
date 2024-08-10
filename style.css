@@ -37,13 +37,13 @@ nav {
     z-index: 10;
 }
 
-nav span{
+nav span {
     color: red;
     position: relative;
-    width:135px;
+    width: 135px;
     z-index: 10;
     font-size: 28px;
-    font-family:  'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .hero {
@@ -149,7 +149,7 @@ nav span{
 section.first>div {
     display: flex;
     flex-direction: column;
-  padding:34px 0;
+    padding: 34px 0;
     font-family: 'Trebuchet MS', sans-serif;
 
 }
@@ -206,80 +206,95 @@ section {
 }
 
 footer {
-   color:white;
-   max-width: 60vw;
-   margin:auto;
-   padding: 60px;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
 
 }
-footer .questions{
-    padding:34px 0;
+
+footer .questions {
+    padding: 34px 0;
 }
-.footer{
-    display:grid;
+
+.footer {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color:white;
+    color: white;
 }
-.footer-item{
-    display:flex;
+
+.footer-item {
+    display: flex;
     flex-direction: column;
-    gap:23px;
+    gap: 23px;
 }
-.footer a{
+
+.footer a {
     font-size: 14px;
-    color:white;
-    
+    color: white;
+
 }
 
-@media screen and (max-width: 1300px){
-    .footer{
-        display:grid;
+@media screen and (max-width: 1300px) {
+    .footer {
+        display: grid;
         grid-template-columns: 1fr 1fr;
-        gap:25px;
+        gap: 25px;
     }
 }
 
-@media screen and (max-width: 1300px){
-    nav h2{
-        font-size: 18px;
+@media screen and (max-width: 1300px) {
+    nav h2 {
+        font-size: 24.7px;
     }
-    nav{
-        max-width:90vw;
+
+    nav {
+        max-width: 90vw;
     }
-    .first{
+
+    .first {
         flex-wrap: wrap;
     }
-    .secImg img{
-        width:305px;
+
+    .secImg img {
+        width: 305px;
     }
-    .secImg video{
-        width:305px;
+
+    .secImg video {
+        width: 305px;
     }
-    .hero> :nth-child(1){
+
+    .hero> :nth-child(1) {
         font-size: 32px;
     }
-    .hero> :nth-child(2){
+
+    .hero> :nth-child(2) {
         font-size: 18px;
     }
-    .hero> :nth-child(3){
+
+    .hero> :nth-child(3) {
         font-size: 18px;
     }
-    .hero-buttons{
+
+    .hero-buttons {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap:16px;
+        gap: 16px;
     }
-    .faq h2{
+
+    .faq h2 {
         text-align: center;
         font-size: 32px;
     }
-    footer{
+
+    footer {
         max-width: 90vw;
-        padding:75px 0;
+        padding: 75px 0;
     }
-    .footer-item{
+
+    .footer-item {
         align-items: center;
     }
 }
